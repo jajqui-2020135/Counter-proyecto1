@@ -1,0 +1,32 @@
+body {
+    background-color: #2c6284;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  span {
+    font-size: 7em;
+  }
+  
+  button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    color: white;
+    cursor: pointer; 
+    background: linear-gradient(to right, transparent 10%, #962ac8 50%);
+    background-size: 200%;
+    background-position: left;
+    text-transform: uppercase;
+  }
+
